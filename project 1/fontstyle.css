@@ -1,0 +1,60 @@
+body {
+	background-color: white;
+
+}
+
+#header {
+	position: relative;
+}
+
+h1 {
+
+	font-size: 200px;
+	position: absolute;
+	left: 400px;
+	top: -15px;
+	font-family:'westminster';
+	color: white;
+	text-shadow: rgba(0, 0, 0, 1.0)0px 0px 20px;
+}
+
+
+p1 {
+	font-size: 200px;
+	position: absolute;
+	top: 275px;
+	font-family:'westminster';
+	text-shadow: rgba(0, 0, 0, 1.0)0px 0px 20px;
+	color: white;
+}
+
+
+@font-face {
+    font-family: 'westminster';
+    src:  url('font 1/westminster/westminster.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+img {
+width: 500px;
+}
+
+.man {
+	width: 450px;
+}
+
+#men { 
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 0en;
+	
+}
+
+.man:hover {
+	transform: rotate(360deg);
+	transition-duration: 1000ms;
+}

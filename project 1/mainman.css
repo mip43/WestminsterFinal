@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'westminster.woff';
+    src:  url('fonts 8/westminster.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+img {
+	width: 400px;
+}
+p {
+	font-size: 100px;
+	font-family: 'westminster.woff';
+	position: fixed;
+	top: 450px;
+	text-align: center;
+	margin-left: 17%;
+}

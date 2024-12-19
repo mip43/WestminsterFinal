@@ -1,0 +1,190 @@
+@font-face {
+    font-family: 'westminster.woff';
+    src:  url('fonts 8/westminster.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {background-color: white;
+    margin: 0;
+    overflow: hidden;
+     margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+
+
+
+#westminster1 {
+font-family: 'westminster.woff';
+font-size: 300px;
+vertical-align: top;
+margin-top: 50px;
+color: transparent;
+text-shadow: rgba(0, 0, 0, 1.0)0px 0px 20px;
+z-index: 10;
+}
+
+
+.container {
+    width: 100%; /* Full width */
+    overflow: hidden; /* Hide overflow content */
+}
+
+.scrolling {
+    display: flex;
+    animation: scroll 10s linear infinite; /* Adjust speed as needed */
+}
+
+.scrolling {
+    width: 6000px; /* Adjust the image width */
+    margin-top: 10px; /* Space between images */
+}
+
+/* Keyframes to create continuous scroll animation */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%); /* Move images to the left */
+    }
+}
+
+.red1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "westminster.woff";
+    color: rgb(255, 0, 0 / 1.0);
+    animation: fall 3s linear infinite;
+    position: absolute;
+    white-space: nowrap;
+    margin-left: 300px;
+}
+
+.red2 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "westminster.woff";
+    color: red;
+    animation: fall 5s linear infinite;
+    position: absolute;
+    white-space: nowrap;
+    margin-left: 1000px;
+}
+
+.red3 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "westminster.woff";
+    color: red;
+    animation: fall 6s linear infinite;
+    position: absolute;
+    white-space: nowrap;
+    margin-left: 500px;
+}
+
+.red4 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "westminster.woff";
+    color: red;
+    animation: fall 3s linear infinite;
+    position: absolute;
+    white-space: nowrap;
+    margin-left: 50px;
+}
+
+.red5 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "westminster.woff";
+    color: red;
+    animation: fall 7s linear infinite;
+    position: absolute;
+    white-space: nowrap;
+    margin-left: 1400px;
+}
+
+.red6 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "westminster.woff";
+    color: red;
+    animation: fall 3s linear infinite;
+    position: absolute;
+    white-space: nowrap;
+    margin-left: 250px;
+}
+
+
+.red7 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "westminster.woff";
+    color: red;
+    animation: fall 5s linear infinite;
+    position: absolute;
+    white-space: nowrap;
+    margin-left: 700px;
+}
+
+.red8 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "westminster.woff";
+    color: red;
+    animation: fall 9s linear infinite;
+    position: absolute;
+    white-space: nowrap;
+    margin-left: 640px;
+}
+
+.red9 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "westminster.woff";
+    color: red;
+    animation: fall 4s linear infinite;
+    position: absolute;
+    white-space: nowrap;
+    margin-left: 750px;
+}
+
+.red10 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "westminster.woff";
+    color: red;
+    animation: fall 8s linear infinite;
+    position: absolute;
+    white-space: nowrap;
+    margin-left: 900px;
+}
+
+
+
+
+
+
+@keyframes fall {
+    0% {
+        top: -50px; /* Start above the screen */
+        opacity: 0; /* Start as invisible */
+    }
+    50% {
+        top: 50vh; /* Middle of the viewport */
+        opacity: 1; /* Text is fully visible */
+    }
+    100% {
+        top: 100vh; /* Move text below the screen */
+        opacity: 0; /* Fade out */
+    }
+}

@@ -1,0 +1,88 @@
+body{
+	background-color: black;
+}
+
+*{
+	border: solid 3px red;
+}
+
+#W { 
+	font-size: 300px;
+	font-family: 'westminster.woff';
+vertical-align: baseline;
+	color: limegreen;
+	
+}
+#E1 { 
+	font-size: 275px;
+	font-family: 'westminster.woff';
+	vertical-align: baseline;
+	color: limegreen;
+
+}
+#S1 { word-spacing: ;
+	font-size: 250px;
+	font-family: 'westminster.woff';
+	vertical-align: baseline;
+	color: limegreen;}
+
+
+#T1 {font-size: 225px;
+	font-family: 'westminster.woff';
+	vertical-align: bottom;
+	color: limegreen;}
+
+#M {font-size: 200px;
+	font-family: 'westminster.woff';
+	line-height: 0;
+	position:relative;
+	top: 300px;
+	color: limegreen;}
+
+#I {font-size: 175px;
+	font-family: 'westminster.woff';
+	line-height: 0;
+	color: limegreen;}
+
+#N {font-size: 150px;
+	font-family: 'westminster.woff';
+	line-height: 0;
+	color: limegreen;}
+
+#S2 {font-size: 125px;
+	font-family: 'westminster.woff';
+	line-height: 0;
+	color: limegreen;}
+
+#T2 {font-size: 100px;
+	font-family: 'westminster.woff';
+	line-height: 0;
+	color: limegreen;}
+
+#E2 {font-size: 75px;
+	font-family: 'westminster.woff';
+	line-height: 0;
+	color: limegreen;}
+
+#R {
+	font-size: 50px;
+	font-family: 'westminster.woff';
+	line-height: 0;
+	color: limegreen;
+}
+
+@font-face {
+    font-family: 'westminster.woff';
+    src:  url('fonts 8/westminster.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#westminster {
+display: flex;
+flex-wrap: wrap;
+height: 500px;
+	
+}
+
